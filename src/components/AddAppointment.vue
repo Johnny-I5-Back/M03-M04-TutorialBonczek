@@ -4,6 +4,7 @@
       <div class="card-header bg-primary text-white" @click="hidepanel=!hidepanel">
         <font-awesome-icon icon="plus" class="mr-3"/>Add Appointment
       </div>
+      <h1></h1>
 
       <div class="card-body" :class="{ 'd-none': hidepanel}">
         <form id="aptForm" @submit.prevent="requestAdd">
